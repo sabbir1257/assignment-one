@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+section{
+    
+}
+
+h2{
+    font-size: 45px;
+}
+
+/* header-section */
+header{
+    position: relative;
+}
+
+.header img{
+   width: 100%;
+   height: 763px;
+}
+
+.header-title{
+  position: absolute;
+  top: 200px;
+  width: 500px;
+  height: 228px;
+  left: 1100px;
+  text-align: right;
+}
+
+.header-title h1{
+    font-size: 55px;
+}
+
+.header-title p{
+    font-size: 20px;
+    color: 	#606060;
+}
+
+.header-title button, a{
+    font-size: 25px;
+    padding: 13px 15px;
+    border-radius: 5px;
+    border: 0;
+    text-decoration: none;
+    color: aliceblue;
+    background-color:#ff471a;
+}
+
+
+/* about-section */
+.about{
+    margin: 0 350px;
+    position: relative;
+    padding-top: 150px;
+}
+
+.about-img{
+    position: absolute;      
+}
+
+.about-title{
+    position: absolute;
+    width: 400px;
+    height: 410px;
+    top: 400px;
+    left: 800px;
+}
+
+.about-title p{
+    font-size: 20px;
+    color: 	#303030;
+    text-align: justify;
+}
+
+.about-text{
+    display: flex;
+}
+
+.about-text i{
+    padding: 0 10px;
+}
+
+
+/* plans-section */
+.plan{
+    margin: 0 350px;
+    text-align: center;
+    padding-top: 900px;
+}
+
+.plan-main{
+    /* width: 80%; */
+    /* height: 30vh; */
+    display: flex;
+}
+
+.plan-document{
+    padding: 55px;
+    position: relative;
+    /* left: 60px; */
+}
+
+.plan-document h3{
+    font-size: 30px;
+}
+
+.plan-document p{
+    font-size: 22px;
+    color: #606060;
+}
+
+
+/* awlays-section */
+.awlays{
+    margin: 0 350px;
+}
+
+.awlays-mine{
+    background: url(images/watch.png);
+    color: white;
+    position: relative;
+    width: 1140px;
+    height: 300px;
+    background-size: 100%;
+    display: flex;
+    border-radius: 5px;
+    top: 100px;
+}
+
+.gradient{
+    background: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+    width: 1140px;
+    height: 300px;
+    opacity: .66;
+    position: absolute;
+    border-radius: 5px ;
+}
+
+.awlays-text{
+    position: relative;
+    bottom: 130px;
+    left: 80px;
+    width: 500px;
+    color: white;
+}
+
+.awlays-text button{
+    font-size: 25px;
+    padding: 13px 15px;
+    border-radius: 5px;
+    border: 0;
+    color: #ff471a;
+}
+
+.footer{
+    width: 100%;
+    height: 577px;
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    padding: 0 350px;
+}
+
+.footer-text{
+    width: 485px;
+    position: relative;
+    top: 140px;
+}
+
+.footer-text img{
+    padding-left: 8px;
+}
+
+.footer-text p{
+    font-size: 20px;
+    color: 	#B8B8B8;
+}
+
+.footer-form{
+    position: relative;
+    left: 940px;
+    top: -130px;
+}
+
+.footer-form h3{
+    font-size: 30px;
+}
+
+.footer-form input{
+    padding: 13px 15px;
+    border-radius: 5px;
+    background: none;
+    border: 2px sold white;
+}
+
+.footer-form button{
+    background-color:white;
+    color: #ff471a;
+    padding: 13px 15px;
+    border-radius: 5px;
+    border: 0;
+
+}
+
+
